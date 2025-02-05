@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#--next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +30,4 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
